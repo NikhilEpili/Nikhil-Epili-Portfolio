@@ -10,14 +10,16 @@ const loreEntries = [
       "Deep within the data streams, investigating post-COVID cardiac complications. Through rigorous analysis and pattern recognition, contributing to humanity's understanding of long-term cardiovascular effects and recovery pathways.",
     color: "from-red-500 to-pink-600",
     tag: "RESEARCH",
+    link: "https://www.researchgate.net/publication/372548656_Cardiology_Chronicles_Stories_of_Heart_Health_and_Healing",
   },
   {
-    title: "HUMAN-MACHINE SYMPHONY",
+    title: "HUMAN-MACHINE SYMBIOSIS",
     icon: Brain,
     content:
       "Exploring the boundaries where human cognition meets artificial intelligence. Architecting multimodal systems that bridge the gap between complex AI and intuitive interaction, creating experiences that feel natural yet transcendent.",
     color: "from-violet-500 to-purple-600",
     tag: "HCI",
+    link: "https://www.sciencedirect.com/science/article/abs/pii/S107158192200146X",
   },
   {
     title: "THE DATA PROPHECY",
@@ -26,6 +28,7 @@ const loreEntries = [
       "Wielding statistical methods and machine learning as tools of foresight. Extracting actionable wisdom from chaotic datasets across healthcare and technology, transforming noise into narrative, data into destiny.",
     color: "from-cyan-500 to-blue-600",
     tag: "DATA SCIENCE",
+    link: "https://dl.acm.org/doi/10.1145/3411764.3445798",
   },
   {
     title: "GUARDIAN PROTOCOL",
@@ -34,6 +37,7 @@ const loreEntries = [
       "Bound by the oath of ethical AI development. Building systems that prioritize transparency, fairness, and privacy. Every algorithm written with humanity's future in mind, ensuring technology serves rather than controls.",
     color: "from-green-500 to-teal-600",
     tag: "ETHICS",
+    link: "https://jme.bmj.com/content/42/4/229",
   },
 ];
 
@@ -163,6 +167,20 @@ export function LoreSection() {
                       >
                         {entry.content}
                       </motion.p>
+
+                      <div className="mt-12">
+                        <motion.a
+                          href={entry.link}
+                          target="_blank"
+                          rel="noreferrer"
+                          initial={{ opacity: 0, y: 10 }}
+                          animate={isInView ? { opacity: 1, y: 0 } : {}}
+                          transition={{ delay: index * 0.2 + 0.8 }}
+                          className={`inline-flex items-center gap-2 text-sm font-mono text-white border border-gray-700 px-4 py-3 bg-gradient-to-r ${entry.color} bg-opacity-20 hover:bg-opacity-30 transition-all`}
+                        >
+                          View Publication
+                        </motion.a>
+                      </div>
                     </div>
                   </div>
                 </div>

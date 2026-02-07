@@ -81,7 +81,7 @@ export function Hero() {
             className="flex gap-6 justify-center mt-12"
           >
             <a
-              href="mailto:nikhil@example.com"
+              href="mailto:nikhilepili@gmail.com"
               className="p-3 rounded-full bg-gray-800/50 backdrop-blur-sm hover:bg-gray-700/50 transition-colors duration-300 border border-gray-700 hover:border-gray-600"
               aria-label="Email"
             >

@@ -33,8 +33,8 @@ export function FinalScene() {
     {
       name: "Email",
       icon: Mail,
-      href: "mailto:nikhil@example.com",
-      label: "nikhil@example.com",
+      href: "mailto:nikhilepili@gmail.com",
+      label: "nikhilepili@gmail.com",
       color: "from-cyan-500 to-blue-500",
     },
     {
@@ -160,7 +160,7 @@ export function FinalScene() {
                 <span>STATUS</span>
               </div>
               <div className="space-y-1 text-gray-400">
-                <p>{'>'} LOCATION: Remote / India</p>
+                <p>{'>'} LOCATION: Mumbai / India</p>
                 <p>{'>'} AVAILABILITY: <span className="text-green-400">OPEN</span></p>
                 <p>{'>'} RESPONSE_TIME: <span className="text-cyan-400">{'<24h'}</span></p>
               </div>
@@ -283,7 +283,7 @@ export function FinalScene() {
 
           <div className="space-y-2">
             <p className="text-gray-500 font-mono text-sm">
-              © 2026 Nikhil Epili • Engineered with React, Motion & Tailwind CSS
+              © 2026 Nikhil Epili • Built with Passion and Love for Innovation.
             </p>
             <motion.p
               animate={{ opacity: [0.5, 1, 0.5] }}

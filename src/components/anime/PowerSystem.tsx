@@ -8,42 +8,42 @@ const powerCategories = [
     icon: Code,
     color: "cyan",
     level: 95,
-    skills: ["Python", "JavaScript", "TypeScript"],
+    skills: ["Python", "C++", "TypeScript"],
   },
   {
     name: "AI/ML CORE",
     icon: Cpu,
     color: "violet",
     level: 92,
-    skills: ["RAG", "Embeddings", "Gemini", "BGE", "pgvector"],
+    skills: ["RAG", "TensorFlow", "PyTorch", "NLP", "CNN"],
   },
   {
     name: "FRAMEWORKS",
     icon: Boxes,
     color: "red",
     level: 90,
-    skills: ["FastAPI", "React", "Node.js"],
+    skills: ["FastAPI", "Hugging Face", "LangChain"],
   },
   {
     name: "DATABASES",
     icon: Database,
     color: "cyan",
     level: 88,
-    skills: ["PostgreSQL", "Vector DBs"],
+    skills: ["PostgreSQL", "MongoDB", "Redis"],
   },
   {
     name: "SYSTEMS",
     icon: Wrench,
     color: "violet",
     level: 85,
-    skills: ["Docker", "Git", "CI/CD"],
+    skills: ["Docker", "Git", "CI/CD","Kubernetes"],
   },
   {
     name: "DOMAINS",
     icon: Globe2,
     color: "red",
     level: 93,
-    skills: ["HealthTech", "IoT", "Blockchain", "AI SaaS"],
+    skills: ["AI SaaS", "IoT", "Blockchain", "HealthTech"],
   },
 ];
 
@@ -198,7 +198,7 @@ export function PowerSystem() {
           <div className="flex items-center justify-between">
             <div>
               <p className="text-xs font-mono text-gray-400 mb-1">OVERALL_COMBAT_POWER</p>
-              <p className="text-4xl font-black text-cyan-400">9001+</p>
+              <p className="text-4xl font-black text-cyan-400">9999+</p>
             </div>
             <div className="text-right">
               <p className="text-xs font-mono text-gray-400 mb-1">STATUS</p>

@@ -62,7 +62,7 @@ export function Contact() {
 
                 <div className="space-y-4">
                   <a
-                    href="mailto:nikhil@example.com"
+                    href="mailto:nikhilepili@gmail.com"
                     className="flex items-center gap-4 p-4 rounded-lg bg-gray-800/50 border border-gray-700 hover:bg-gray-700/50 hover:border-gray-600 transition-all duration-300"
                   >
                     <div className="p-3 rounded-lg bg-gradient-to-r from-blue-500 to-teal-500">
@@ -70,7 +70,7 @@ export function Contact() {
                     </div>
                     <div>
                       <p className="text-sm text-gray-400">Email</p>
-                      <p className="text-white font-medium">nikhil@example.com</p>
+                      <p className="text-white font-medium">nikhilepili@gmail.com</p>
                     </div>
                   </a>
 
@@ -189,7 +189,7 @@ export function Contact() {
             className="mt-16 text-center"
           >
             <p className="text-gray-500">
-              © 2026 Nikhil Epili. Built with React, TypeScript & Tailwind CSS
+              © 2026 Nikhil Epili. Built with Passion and love for innovation.
             </p>
           </motion.div>
         </motion.div>

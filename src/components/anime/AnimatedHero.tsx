@@ -120,7 +120,7 @@ export function AnimatedHero() {
           transition={{ delay: 2.8, duration: 0.6 }}
           className="flex flex-wrap gap-4 mb-12"
         >
-          {["AI/ML ENGINEER", "FULL-STACK DEV", "HACKATHON BUILDER"].map((tag, index) => (
+          {["AI/ML ENGINEER", "COMPETITIVE CODER", "HACKATHON BUILDER"].map((tag, index) => (
             <motion.div
               key={tag}
               initial={{ opacity: 0, scale: 0.8 }}

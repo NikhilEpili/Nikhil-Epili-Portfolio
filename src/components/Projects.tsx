@@ -5,20 +5,13 @@ import { Button } from "./ui/button";
 
 const projects = [
   {
-    title: "AEROGUARD",
-    description:
-      "AI + IoT + Blockchain HealthTech platform delivering personalized air-pollution health insights. Real-time monitoring with predictive analytics for respiratory health management.",
-    techStack: ["AI/ML", "IoT", "Blockchain", "HealthTech", "Python"],
-    gradient: "from-blue-500 to-teal-500",
-    icon: "🌍",
-  },
-  {
-    title: "KBIS",
+    title: "Cognexia",
     description:
       "Knowledge-Based Information System leveraging RAG (Retrieval-Augmented Generation) architecture. FastAPI backend with React frontend for intelligent document retrieval and Q&A.",
     techStack: ["RAG", "FastAPI", "React", "PostgreSQL", "pgvector"],
     gradient: "from-violet-500 to-blue-500",
     icon: "🧠",
+    repoUrl: "https://github.com/NikhilEpili/Cognexia",
   },
   {
     title: "TrueSight AI",
@@ -27,14 +20,25 @@ const projects = [
     techStack: ["AI/ML", "Computer Vision", "NLP", "Python", "React"],
     gradient: "from-teal-500 to-violet-500",
     icon: "🔍",
+    repoUrl: "https://github.com/NikhilEpili/TrueSight-AI",
   },
   {
-    title: "Crowdfunding Platform",
+    title: "AEROGUARD",
+    description:
+      "AI + IoT + Blockchain HealthTech platform delivering personalized air-pollution health insights. Real-time monitoring with predictive analytics for respiratory health management.",
+    techStack: ["AI/ML", "IoT", "Blockchain", "HealthTech", "Python"],
+    gradient: "from-blue-500 to-teal-500",
+    icon: "🌍",
+    repoUrl: "https://github.com/NikhilEpili/LibraryManagement_DBMS",
+  },
+  {
+    title: "Sahyog",
     description:
       "Social-impact crowdfunding platform with integrated payment processing. Built with Python backend and Razorpay API for secure transactions and campaign management.",
     techStack: ["Python", "Razorpay API", "Full-Stack", "PostgreSQL"],
     gradient: "from-blue-500 to-violet-500",
     icon: "💰",
+    repoUrl: "https://github.com/NikhilEpili/Career-Metric",
   },
 ];
 
@@ -89,7 +93,7 @@ export function Projects() {
                   {project.techStack.map((tech) => (
                     <span
                       key={tech}
-                      className={`px-3 py-1 rounded-full text-sm font-medium bg-gradient-to-r ${project.gradient} bg-opacity-20 border border-gray-700 text-gray-200`}
+                      className={`px-3 py-1 rounded-full text-sm font-medium bg-gradient-to-r ${project.gradient} bg-opacity-20 border border-gray-700 text-white`}
                     >
                       {tech}
                     </span>
@@ -99,12 +103,15 @@ export function Projects() {
                 {/* Action Buttons */}
                 <div className="flex gap-3">
                   <Button
+                    asChild
                     variant="outline"
                     size="sm"
                     className="border-gray-700 hover:border-gray-600 bg-gray-800/50 hover:bg-gray-700/50 text-white transition-all duration-300"
                   >
-                    <Github className="h-4 w-4 mr-2" />
-                    Code
+                    <a href={project.repoUrl} target="_blank" rel="noreferrer">
+                      <Github className="h-4 w-4 mr-2" />
+                      Code
+                    </a>
                   </Button>
                   <Button
                     variant="outline"

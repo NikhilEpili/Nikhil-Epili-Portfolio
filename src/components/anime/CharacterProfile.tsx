@@ -6,8 +6,8 @@ export function CharacterProfile() {
   const [ref, isInView] = useInView({ threshold: 0.2 });
 
   const stats = [
-    { label: "ROLE", value: "AI/ML & Full-Stack Engineer", icon: Terminal },
-    { label: "SPECIALIZATION", value: "HealthTech × AI × Blockchain", icon: Zap },
+    { label: "ROLE", value: "AI/ML & DevOps Engineer", icon: Terminal },
+    { label: "SPECIALIZATION", value: "SaaS Products", icon: Zap },
     { label: "MOTIVATION", value: "Real-world impact through innovation", icon: Target },
     { label: "PHILOSOPHY", value: "Ethical AI for humanity", icon: Heart },
   ];
@@ -123,11 +123,11 @@ export function CharacterProfile() {
                     <p className="text-sm font-mono text-cyan-400">FOCUS_AREAS:</p>
                     <div className="flex flex-wrap gap-2">
                       {[
-                        "AI for Healthcare",
                         "RAG Systems",
-                        "Misinformation Detection",
+                        "AI in Healthcare",
+                        "Blockchain for Good",
                         "Human-Computer Interaction",
-                        "IoT + Blockchain",
+                        "IoT Enabled Solutions",
                       ].map((area, index) => (
                         <motion.span
                           key={area}

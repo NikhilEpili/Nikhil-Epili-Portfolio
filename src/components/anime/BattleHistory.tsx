@@ -4,6 +4,17 @@ import { Trophy, Swords, Users, Briefcase, Star, Award } from "lucide-react";
 
 const achievements = [
   {
+    year: "2023-2026",
+    title: "INDUSTRY EXPERIENCE",
+    icon: Briefcase,
+    color: "from-violet-500 to-purple-500",
+    events: [
+      "ThoughtParadigm - Founding Engineer",
+      "DevLooopers - Freelancer (2025-Present)",
+      "Multiple projects in AI/ML domain (2023-Present)",
+    ],
+  },
+  {
     year: "2024-2026",
     title: "HACKATHON WARRIOR",
     icon: Trophy,
@@ -15,25 +26,14 @@ const achievements = [
     ],
   },
   {
-    year: "2023-2025",
-    title: "COMMUNITY LEADER",
+    year: "2023-2026",
+    title: "BEYOND CODING",
     icon: Users,
     color: "from-cyan-500 to-blue-500",
     events: [
-      "Led developer communities and tech groups",
-      "Mentored 50+ students in AI/ML and web development",
-      "Organized technical workshops and knowledge sessions",
-    ],
-  },
-  {
-    year: "2024",
-    title: "INDUSTRY RECOGNITION",
-    icon: Briefcase,
-    color: "from-violet-500 to-purple-500",
-    events: [
-      "Shortlisted for top-tier internship programs",
-      "Recognition from industry leaders for innovative work",
-      "Strong academic excellence in Computer Science",
+      "Sports Coordinator - Student Council (2025-2026)",
+      "NSS Student Leader (2024-2026)",
+      "Academic Executive - Ambika Classes (2023-2025)",
     ],
   },
   {
@@ -185,21 +185,22 @@ export function BattleHistory() {
           </div>
         </motion.div>
 
-        {/* Legend Earned */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ delay: 1.2, duration: 0.8 }}
-          className="text-center mt-8"
-        >
-          <p className="text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500">
-            LEGEND STATUS: UNLOCKED
-          </p>
-          <p className="text-gray-400 font-mono text-sm mt-2">
-            // The journey continues...
-          </p>
-        </motion.div>
       </div>
+
+      {/* Legend Earned */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={isInView ? { opacity: 1, y: 0 } : {}}
+        transition={{ delay: 1.2, duration: 0.8 }}
+        className="text-center mt-8"
+      >
+        <p className="text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500">
+          LEGEND STATUS: UNLOCKED
+        </p>
+        <p className="text-gray-400 font-mono text-sm mt-2">
+          // The journey continues...
+        </p>
+      </motion.div>
     </section>
   );
 }

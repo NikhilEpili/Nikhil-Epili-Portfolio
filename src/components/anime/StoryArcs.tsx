@@ -4,37 +4,40 @@ import { ExternalLink, Github, Play } from "lucide-react";
 
 const projects = [
   {
-    title: "AEROGUARD",
-    arc: "ARC 01",
-    subtitle: "The Air Guardian Protocol",
-    description:
-      "A revolutionary AI + IoT + Blockchain HealthTech platform. Real-time air pollution monitoring fused with predictive analytics, delivering personalized health insights to protect respiratory wellness in an increasingly polluted world.",
-    techStack: ["AI/ML", "IoT", "Blockchain", "HealthTech", "Python"],
-    color: "cyan",
-    status: "COMPLETED",
-  },
-  {
     title: "Cognexia",
-    arc: "ARC 02",
+    arc: "ARC 01",
     subtitle: "Knowledge Nexus System",
     description:
       "A CLI-Based Cross-Platform Local Knowledge Base System Using NLP and Intent-Aware Inference over Heterogeneous Local Data",
     techStack: ["RAG", "Python", "CLI", "PostgreSQL", "pgvector"],
     color: "violet",
     status: "ACTIVE",
+    repoUrl: "https://github.com/NikhilEpili/Cognexia",
   },
   {
-    title: "TRUESIGHT AI",
-    arc: "ARC 03",
+    title: "TrueSight AI",
+    arc: "ARC 02",
     subtitle: "The Truth Seeker",
     description:
       "Multimodal AI platform engineered to combat digital deception. Employing state-of-the-art computer vision and NLP to detect deepfakes and misinformation, safeguarding truth in the age of synthetic media.",
     techStack: ["AI/ML", "Computer Vision", "NLP", "Python", "React"],
     color: "red",
     status: "COMPLETED",
+    repoUrl: "https://github.com/NikhilEpili/TrueSight-AI-",
   },
   {
-    title: "CROWDFUND",
+    title: "AeroGUARD",
+    arc: "ARC 03",
+    subtitle: "The Air Guardian Protocol",
+    description:
+      "A revolutionary AI + IoT + Blockchain HealthTech platform. Real-time air pollution monitoring fused with predictive analytics, delivering personalized health insights to protect respiratory wellness in an increasingly polluted world.",
+    techStack: ["AI/ML", "IoT", "Blockchain", "HealthTech", "Python"],
+    color: "cyan",
+    status: "COMPLETED",
+    repoUrl: "https://github.com/NikhilEpili/LibraryManagement_DBMS",
+  },
+  {
+    title: "Sahyog",
     arc: "ARC 04",
     subtitle: "Impact Revolution",
     description:
@@ -42,6 +45,7 @@ const projects = [
     techStack: ["Python", "Razorpay", "Full-Stack", "PostgreSQL"],
     color: "cyan",
     status: "COMPLETED",
+    repoUrl: "https://github.com/NikhilEpili/Career-Metric-",
   },
 ];
 
@@ -195,7 +199,7 @@ export function StoryArcs() {
                               initial={{ opacity: 0, scale: 0 }}
                               animate={isInView ? { opacity: 1, scale: 1 } : {}}
                               transition={{ delay: index * 0.2 + 0.6 + techIndex * 0.05 }}
-                              className={`px-3 py-1 border ${colors.border} bg-gradient-to-r ${colors.gradient} bg-opacity-20 ${colors.text} text-sm font-mono`}
+                              className={`px-3 py-1 border ${colors.border} bg-gradient-to-r ${colors.gradient} bg-opacity-20 text-white text-sm font-mono`}
                             >
                               {tech}
                             </motion.span>
@@ -210,11 +214,19 @@ export function StoryArcs() {
                         transition={{ delay: index * 0.2 + 0.7 }}
                         className="flex flex-wrap gap-3 pt-4"
                       >
-                        <button className={`group/btn flex items-center gap-2 px-6 py-3 border-2 ${colors.border} bg-gradient-to-r ${colors.gradient} bg-opacity-20 hover:bg-opacity-30 ${colors.text} hover:text-white font-mono transition-all`}>
+                        <a
+                          href={project.repoUrl}
+                          target="_blank"
+                          rel="noreferrer"
+                          className={`group/btn flex items-center gap-2 px-6 py-3 border-2 ${colors.border} bg-gradient-to-r ${colors.gradient} bg-opacity-20 hover:bg-opacity-30 text-white font-mono transition-all`}
+                        >
                           <Github className="w-4 h-4" />
                           <span>VIEW_CODE</span>
-                        </button>
-                        <button className={`group/btn flex items-center gap-2 px-6 py-3 border-2 ${colors.border} hover:${colors.bg} ${colors.text} hover:text-black font-mono transition-all`}>
+                        </a>
+                        <button
+                          onClick={() => alert("Coming soon.")}
+                          className={`group/btn flex items-center gap-2 px-6 py-3 border-2 ${colors.border} hover:${colors.bg} ${colors.text} hover:text-black font-mono transition-all`}
+                        >
                           <Play className="w-4 h-4" />
                           <span>DEMO</span>
                         </button>

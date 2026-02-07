@@ -6,7 +6,7 @@ const skillCategories = [
   {
     title: "Programming",
     icon: Code,
-    skills: ["Python", "JavaScript", "TypeScript"],
+    skills: ["Python", "C++", "TypeScript"],
     color: "from-blue-500 to-blue-600",
   },
   {
@@ -18,13 +18,13 @@ const skillCategories = [
   {
     title: "AI/ML",
     icon: Cpu,
-    skills: ["RAG", "Embeddings", "Gemini", "BGE", "pgvector"],
+    skills: ["RAG", "TensorFlow", "PyTorch", "NLP", "scikit-learn"],
     color: "from-teal-500 to-teal-600",
   },
   {
     title: "Databases",
     icon: Database,
-    skills: ["PostgreSQL"],
+    skills: ["PostgreSQL", "MongoDB", "Redis"],
     color: "from-blue-500 to-teal-500",
   },
   {
