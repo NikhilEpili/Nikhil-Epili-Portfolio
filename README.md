@@ -1,6 +1,14 @@
 # 💫 About Me:
-I'm currently working as Founding Engineer in a Japan Based Startup<br>I'm looking to collaborate with Startup Founder, Hackathon Teams and fellow Developers<br>I'm looking for help with internships and job opportunities<br>I'm currently learning Machine Learning and devOps<br>Ask me about History, Sports and Tech
+Aspiring Software Developer | BTech Computer Science (Expected 2027) | Passionate about AI/ML, Cybersecurity & Competitive Programming
 
+Hello! I’m Nikhil Epili, a driven computer science student pursuing my BTech with a keen interest in Artificial Intelligence, Machine Learning, Cybersecurity, and Competitive Programming. Eager to apply my technical knowledge and problem-solving skills to real-world challenges, I am actively seeking internship opportunities to grow as a developer and contribute to innovative projects. 
+
+🔹Technical Skills: Proficient in Python & C++, with hands-on experience in TensorFlow, PostgreSQL, Fast API, React and Web Servlets
+🔹Competitive Programmer: Passionate about algorithmic problem-solving; actively participate in coding contests on platforms like LeetCode, CodeChef, or HackerRank. 
+🔹Cybersecurity Enthusiast: Exploring vulnerabilities, ethical hacking, and network security to build robust systems. 
+🔹AI/ML Learner: Building small-scale models and staying updated with the latest advancements in deep learning and automation. 
+
+I thrive in collaborative environments and am always eager to learn from industry professionals. Let’s connect if you’re looking for a motivated intern or want to discuss tech, coding, or emerging trends! 
 
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discord.gg/RSkGM769) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/__nikhilepili__) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/nikhilepili) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/YellowAppleRedBanana) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/nikhilepili) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:nikhilepili@gmail.com) 
@@ -11,14 +19,3 @@ I'm currently working as Founding Engineer in a Japan Based Startup<br>I'm looki
 ![](https://github-readme-stats.vercel.app/api?username=NikhilEpili&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=NikhilEpili&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=NikhilEpili&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=NikhilEpili&limit=5&theme=tokyonight&combine_all_yearly_contributions=true)
-
----
-[![](https://visitcount.itsvg.in/api?id=NikhilEpili&icon=2&color=0)](https://visitcount.itsvg.in)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
