@@ -53,6 +53,8 @@
             "vite": "^6.4.1"
       },
       "scripts": {
-            "build": "node node_modules/vite/bin/vite.js build"
+            "dev": "vite",
+            "build": "node node_modules/vite/bin/vite.js build",
+            "preview": "vite preview"
       }
 }
