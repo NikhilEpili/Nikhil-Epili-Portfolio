@@ -3,10 +3,10 @@ Aspiring Software Developer | BTech Computer Science (Expected 2027) | Passionat
 
 Hello! I’m Nikhil Epili, a driven computer science student pursuing my BTech with a keen interest in Artificial Intelligence, Machine Learning, Cybersecurity, and Competitive Programming. Eager to apply my technical knowledge and problem-solving skills to real-world challenges, I am actively seeking internship opportunities to grow as a developer and contribute to innovative projects. 
 
-🔹Technical Skills: Proficient in Python & C++, with hands-on experience in TensorFlow, PostgreSQL, Fast API, React and Web Servlets
-🔹Competitive Programmer: Passionate about algorithmic problem-solving; actively participate in coding contests on platforms like LeetCode, CodeChef, or HackerRank. 
-🔹Cybersecurity Enthusiast: Exploring vulnerabilities, ethical hacking, and network security to build robust systems. 
-🔹AI/ML Learner: Building small-scale models and staying updated with the latest advancements in deep learning and automation. 
+🔹Technical Skills: Proficient in Python & C++, with hands-on experience in TensorFlow, PostgreSQL, Fast API, React and Web Servlets<br>
+🔹Competitive Programmer: Passionate about algorithmic problem-solving; actively participate in coding contests on platforms like LeetCode, CodeChef, or HackerRank.<br>
+🔹Cybersecurity Enthusiast: Exploring vulnerabilities, ethical hacking, and network security to build robust systems. <br>
+🔹AI/ML Learner: Building small-scale models and staying updated with the latest advancements in deep learning and automation. <br>
 
 I thrive in collaborative environments and am always eager to learn from industry professionals. Let’s connect if you’re looking for a motivated intern or want to discuss tech, coding, or emerging trends! 
 
